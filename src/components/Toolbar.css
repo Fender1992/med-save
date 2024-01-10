@@ -1,0 +1,12 @@
+#toolbar {
+    background-color: lightblue;
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+#hospital-logo{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 75px;
+}
