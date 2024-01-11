@@ -1,12 +1,36 @@
 #toolbar {
-    background-color: lightblue;
-    display: flex;
-    text-align: center;
-    font-weight: bold;
+  background-color: lightblue;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
 }
-#hospital-logo{
-    height: 150px;
-    width: 150px;
-    padding: 10px;
-    border-radius: 75px;
+#hospital-logo {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 75px;
+}
+#toolbar-items {
+  display: flex;
+  padding: 20px;
+}
+#home {
+  padding: 20px;
+  font-size: 1.5em;
+}
+#about-us {
+  padding: 20px;
+  font-size: 1.5em;
+}
+#dropdown {
+  padding: 20px;
+  font-size: 1.5em;
+}
+#login {
+  display: flexbox;
+  align-items: right;
+}
+#buttons {
+  float: right;
+  padding: 35px;
 }

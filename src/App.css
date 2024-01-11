@@ -1,0 +1,12 @@
+input {
+  color: black;
+  font-family: inherit;
+  height: 100px;
+  width: 600px;
+  font-size: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+#icon {
+  height: 150px;
+}

@@ -1,25 +1,28 @@
-import Toolbar from "./components/Toolbar";
-import Homepage from "./components/homepage";
+import Toolbar from "./components/Toolbar.jsx";
+import Homepage from "./components/Homepage.jsx";
+import "./App.css";
+import searchIcon from "./assets/search-icon-vector.png";
 
 function App() {
   return (
     <div>
-          <Toolbar/>
+      <Toolbar />
 
       <header>
-        <img src="src/assets/react-core-concepts.png" alt="Stylized atom" />
-        <h1>React Essentials</h1>
-        <p>
-          Fundamental React concepts you will need for almost any app you are
-          going to build!
-        </p>
-        <h1>
-          <Homepage/>
-        </h1>
+        <h1></h1>
+        <div id="inputWrapper">
+          <img id="icon" src={searchIcon} />
+          <input
+            id="input"
+            type="text"
+            placeholder="Search Facilities"
+            spellCheck="true"
+          ></input>
+        </div>
+        <p>Search for facilities near you!</p>
+        <h1></h1>
       </header>
-      <main>
-        <h2>Time to get started!</h2>
-      </main>
+      <main></main>
     </div>
   );
 }
