@@ -26,11 +26,9 @@
   padding: 20px;
   font-size: 1.5em;
 }
-#login {
-  display: flexbox;
-  align-items: right;
-}
-#buttons {
-  float: right;
-  padding: 35px;
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-left: 400px;
 }

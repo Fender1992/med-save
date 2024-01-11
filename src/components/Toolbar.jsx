@@ -1,6 +1,9 @@
 import React from "react";
 import "./toolbar.css";
 import logo from "../assets/hospital-logo.png";
+import UserForm from "./UserForm.jsx"
+
+
 
 export default function Toolbar() {
   return (
@@ -55,10 +58,12 @@ export default function Toolbar() {
               </ul>
             </li>
           </div>
-          <div id="buttons">
-            <button id="login">Login</button>
-            <button id="user">Create a user</button>
+          <div id="container">
+            <button className="login" >Login</button>
+            <button className="user" onClick={() => (UserForm())}>Create a User</button>
+
           </div>
+          
         </div>
       </ul>
     </div>
